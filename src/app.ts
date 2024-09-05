@@ -9,7 +9,6 @@ app.get("/", (req, res) => {
   // I probably want this to send back the information needed for images
   res.send("Hello World! this backend is working");
 });
-const a;
 app.use("/images", imageRouter);
 
 // the place where the server is listening for when the server starts
